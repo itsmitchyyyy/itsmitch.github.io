@@ -1,0 +1,30 @@
+@import '../variables';
+
+.main {
+    &-container {
+        .nav {
+            &-container {
+                .center-nav {
+                    display: flex;
+                    justify-content: center;;
+                }
+            }
+        }
+
+        .carousel {
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 80vh;
+
+            .carousel-item {
+                width: 500px;
+                height: 450px;
+
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

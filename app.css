@@ -1,0 +1,19 @@
+.main-container .nav-container .center-nav {
+  display: flex;
+  justify-content: center;
+}
+.main-container .carousel {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.main-container .carousel .carousel-item {
+  width: 500px;
+  height: 450px;
+}
+.main-container .carousel .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=app.css.map */

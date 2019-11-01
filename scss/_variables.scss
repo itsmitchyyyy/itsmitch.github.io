@@ -1,0 +1,21 @@
+$primary: rgba(0, 60, 255, 0.836);
+$white: #fff;
+$black: #000;
+
+$xs: 575.98px;
+$sm: 767.98px;
+$md: 991.98px;
+$lg: 1199.98px;
+$lgh: 1200px;
+
+@mixin maxBP($point) {
+    @media (max-width: $point) {
+        @content;
+    }
+}
+
+@mixin minBP($point) {
+    @media (min-width: $point) {
+        @content;
+    }
+}
