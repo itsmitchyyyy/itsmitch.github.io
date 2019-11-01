@@ -1,5 +1,5 @@
 $(function() {
-    var imgFolder = window.location.pathname + "/includes/img";
+    var imgFolder = "/includes/img";
 
     $.get(imgFolder).then(function(result, status) {
     $(result).find("a").attr('href', function(index, value) {
